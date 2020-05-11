@@ -1,0 +1,84 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8"><meta name="author" content="manimay raj bit mesra">
+
+    <title>collegeConnect</title>
+  </head>
+  <body style="background-color:aliceblue;">
+    <header>
+      <!-- <h1> c</h1>
+      <h2>a college network change the way you connect </h2> -->
+      <div style="text-align:center; border:1px solid red; background-color:red;">
+        <h1> Welcome to CC:CollegeConnect </h1></div>
+        <div style="text-align:center; border:0px solid red; background-color:red;">
+          <h1> -- a college network change the way you connect </h1></div>
+
+
+      </header>
+      <main>
+
+          <div style="text-align:center; border:1px solid red; background-color:red;">
+            <h1> Enter your details: </h1></div>
+            <form action="{% url 'page1' %}">
+            <span><textarea cols="44" rows="3" name="name">Enter your full name:</textarea></span>
+            <span><textarea cols="44" rows="3" name="age">Your age:</textarea></span>
+            <textarea cols="44" rows="3" name="college">College's Name:</textarea>
+            <textarea cols="44" rows="3" name="city">City of College:</textarea>
+            <div style="text-align:center;background-color:yellow">
+            <input type="submit" value="submit to find your mates"/></div>
+
+          </form>
+
+
+            <!-- <form action="{% url 'page1' %}">
+              <input type="text" value="enter your name"/>  <input type="text" value="enter your college's name"/>
+                <input type="text" value="college's city"/>  <input type="text" value="Your age?"/>
+                  <input type="date"/>
+                  <textarea cols="100" rows="10" name="fulltext"></textarea> -->
+
+
+
+        </main>
+        <footer>
+          <a href="{% url 'home' %}">Click to reset values</a>
+          <br>
+          <a href="{% url 'page2' %}">College's List</a>
+          <br>
+          <a href="{% url 'about' %}">About</a>
+
+
+          </footer>
+
+
+
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
